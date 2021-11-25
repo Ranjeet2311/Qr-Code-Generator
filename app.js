@@ -14,16 +14,11 @@ btn.addEventListener(
 
     if (value.length > 0) {
       let s = QRCode.generateSVG(value, {
-        // // 'L', 'M', 'Q' and 'H' ---CSS can be easily added
-        // ecclevel: "M",
-        // // fill color
-        // fillcolor: "linear-gradient(to right, #b92b27, #1565c0);",
-        // // text color
-        // textcolor: "#b92b27",
-        // // margin size
-        // margin: 4,
-        // // module size
-        // modulesize: 8,
+        ecclevel: "M",
+        fillcolor: "#F2F2F2",
+        textcolor: "#D13438",
+        margin: 4,
+        modulesize: 8,
       });
 
       generatorWrapper.appendChild(s);
