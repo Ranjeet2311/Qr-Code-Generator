@@ -16,7 +16,7 @@ btn.addEventListener(
     console.log(value);
 
     if (value.length > 0) {
-      s = QRCode.generateSVG(value, {
+      let s = QRCode.generateSVG(value, {
         // 'L', 'M', 'Q' and 'H' ---CSS can be easily added
         ecclevel: "M",
 
