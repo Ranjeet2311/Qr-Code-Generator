@@ -1,0 +1,22 @@
+{
+  "name": "qr-code-generator",
+  "version": "1.0.0",
+  "description": "Bootstrap & Sass",
+  "main": "app.js",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "qrjs2": "^0.1.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Bootstrap",
+    "bootstrap-v4.6",
+    "Sass"
+  ],
+  "author": "Ranjeet Kumar",
+  "license": "ISC"
+}
