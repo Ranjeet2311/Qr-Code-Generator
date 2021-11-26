@@ -33,6 +33,7 @@ btn.addEventListener(
       console.log("Val 0 works");
     } else if (value == 0) {
       alert("Plese type your content");
+      window.location.reload();
     }
   },
   { once: true }
