@@ -47,20 +47,21 @@ body {
 }
 
 .generator-wrapper {
-  width: 20%;
+  display: block;
   margin: 1rem auto;
   pointer-events: none;
-}
-
-.generator-wrapper .iframe {
-  display: block;
-  margin: 0rem auto;
 }
 
 .generator-wrapper .giphy {
   display: block;
   margin: 0rem auto;
   border: none;
+}
+
+.generator-wrapper svg {
+  display: block;
+  margin: 0rem auto;
+  width: 20%;
 }
 
 .transition {
