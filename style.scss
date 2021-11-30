@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
-@import "./node_modules/bootstrap/scss/bootstrap";
 
 * {
   padding: 0;
@@ -7,16 +6,7 @@
   scroll-behavior: smooth;
   font-family: "Kanit", sans-serif;
 }
-
-// @import "./node_modules/bootstrap/scss/functions";
-// @import "./node_modules/bootstrap/scss/variables";
-// @import "./node_modules/bootstrap/scss/mixins";
-// @import "../node_modules/bootstrap/scss/reboot";
-// @import "../node_modules/bootstrap/scss/type";
-// @import "../node_modules/bootstrap/scss/images";
-// @import "../node_modules/bootstrap/scss/code";
-// @import "../node_modules/bootstrap/scss/grid";
-
+//
 $color-white: #ffffff;
 $color-grey: #eeebeb;
 $color-blue: #0a58ca;
@@ -62,13 +52,19 @@ body {
 
 .generator-wrapper {
   width: 20%;
-  display: block;
+  // display: block;
   margin: 1rem auto;
   pointer-events: none;
 
   .iframe {
     display: block;
     margin: 0rem auto;
+  }
+
+  .giphy {
+    display: block;
+    margin: 0rem auto;
+    border: none;
   }
 }
 
